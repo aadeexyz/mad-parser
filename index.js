@@ -1,4 +1,4 @@
-function parse(md) {
+function parseMD(md) {
     if (md == null) {
         return "Try Again";
     }
@@ -71,4 +71,4 @@ function parse(md) {
     return md;
 }
 
-module.exports = parse;
+module.exports = parseMD;
